@@ -5,9 +5,220 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #FFFFFF;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.login-screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-screen .login-wrapper {
+  background-color: #ffffff;
+  height: 832px;
+  width: 1280px;
+}
+
+.login-screen .div {
+  align-items: center;
+  display: flex;
+  gap: 48px;
+  left: 18px;
+  position: relative;
+  top: 18px;
+  width: 1245px;
+}
+
+.login-screen .intro-main {
+  height: 795px;
+  position: relative;
+  width: 604px;
+}
+
+.login-screen .overlap-group {
+  background-image: url(./cover.png);
+  background-size: 100% 100%;
+  height: 795px;
+  position: relative;
+  width: 600px;
+}
+
+.login-screen .text-wrapper {
+  color: #e9efec;
+  font-family: "Anuphan-Bold", Helvetica;
+  font-size: 65px;
+  font-weight: 700;
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 85px;
+  white-space: nowrap;
+  width: 340px;
+}
+
+.login-screen .text-wrapper-2 {
+  color: #c4dad2;
+  font-family: "Anuphan-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 154px;
+}
+
+.login-screen .form {
+  height: 551px;
+  position: relative;
+  width: 542px;
+}
+
+.login-screen .frame {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  position: relative;
+  width: 542px;
+}
+
+.login-screen .text-wrapper-3 {
+  align-self: stretch;
+  color: var(--main-colours-main-body-text);
+  font-family: var(--h1-font-family);
+  font-size: var(--h1-font-size);
+  font-style: var(--h1-font-style);
+  font-weight: var(--h1-font-weight);
+  letter-spacing: var(--h1-letter-spacing);
+  line-height: var(--h1-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.login-screen .p {
+  align-self: stretch;
+  color: var(--main-colours-main-body-text);
+  font-family: var(--main-body-text-font-family);
+  font-size: var(--main-body-text-font-size);
+  font-style: var(--main-body-text-font-style);
+  font-weight: var(--main-body-text-font-weight);
+  letter-spacing: var(--main-body-text-letter-spacing);
+  line-height: var(--main-body-text-line-height);
+  position: relative;
+}
+
+.login-screen .form-2 {
+  height: 352px;
+  position: relative;
+  width: 500px;
+}
+
+.login-screen .username-input {
+  height: 77px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 502px;
+}
+
+.login-screen .text-wrapper-4 {
+  color: var(--main-colours-main-body-text);
+  font-family: var(--form-title-font-family);
+  font-size: var(--form-title-font-size);
+  font-style: var(--form-title-font-style);
+  font-weight: var(--form-title-font-weight);
+  left: 0;
+  letter-spacing: var(--form-title-letter-spacing);
+  line-height: var(--form-title-line-height);
+  position: absolute;
+  top: 0;
+}
+
+.login-screen .overlap-group-2 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #a5a5a5;
+  border-radius: 8px;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 37px;
+  width: 500px;
+}
+
+.login-screen .img {
+  height: 24px;
+  left: 6px;
+  position: absolute;
+  top: 7px;
+  width: 24px;
+}
+
+.login-screen .password {
+  height: 77px;
+  left: 0;
+  position: absolute;
+  top: 91px;
+  width: 502px;
+}
+
+.login-screen .mdi-eye {
+  height: 24px;
+  left: 466px;
+  position: absolute;
+  top: 7px;
+  width: 24px;
+}
+
+.login-screen .line {
+  height: 1px;
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 270px;
+  width: 497px;
+}
+
+.login-screen .button-instance {
+  background-image: url(./union-2.svg) !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 197px !important;
+}
+
+.login-screen .design-component-instance-node {
+  width: 500px !important;
+}
+
+.login-screen .button-2 {
+  background-image: url(./union-3.svg) !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 307px !important;
+  width: 500px !important;
+}
+
+.login-screen .image-wrapper {
+  height: 64px;
+  margin-right: -1px;
+  position: relative;
+  width: 543px;
+}
+
+.login-screen .image {
+  height: 50px;
+  left: 428px;
+  object-fit: cover;
+  position: absolute;
+  top: 14px;
+  width: 90px;
 }
